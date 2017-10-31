@@ -5,6 +5,8 @@ body {
 #top-bar-div {
     height: 5%;
     background-color: #D8D9DC; // darker grey
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
 }
 
 #top-bar-div h1 {
@@ -38,7 +40,6 @@ body {
     font-size: 20px;
     float: left;
     background: #FFC76B; // orange
-
 }
 
 #language-selector .ui-selected {
@@ -59,6 +60,14 @@ body {
     float: left;
     box-sizing: border-box;
     background-color: #EAFFFF; // very light blue
+}
+
+#code-textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    outline: none;
+    border: none;
 }
 
 #output-div {
